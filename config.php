@@ -40,7 +40,6 @@ if (isset($_POST['submitR'])) { // Check press or not Post Comment Button
     $result = mysqli_query($connect, $sql);
     if ($result) {
         header("Location:../Ronaldo/cr7.php");
-        echo "<script>alert('Comment added successfully.')</script>";
         
         exit();
         
