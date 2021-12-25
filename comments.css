@@ -1,0 +1,28 @@
+
+.wrapper .prev-comments {
+    
+
+    margin-top: 50px;
+}
+
+.wrapper .prev-comments .single-item {
+
+    background: #FFF;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.wrapper .prev-comments .single-item h4 {
+
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #111;
+}
+
+
+
+.wrapper .prev-comments .single-item p {
+    font-size: .9rem;
+    color: #111;

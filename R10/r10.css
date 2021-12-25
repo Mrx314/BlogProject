@@ -1,0 +1,56 @@
+@import 'https://www.w3schools.com/w3css/4/w3.css';
+
+body{
+    
+        background-color: #cccccc;
+        background-image: linear-gradient(red, darkblue,maroon );
+
+}
+.hero-image {
+    background-image: url("../images/bg4.jpg");
+    background-color: #cccccc;
+    max-width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text {
+    margin-left: 200px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+  }
+.para{
+    font-size: 50px;
+    font-family: monospace;
+}
+
+#div1{
+     
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    ;
+    
+    text-align: center;
+    font-size: 25px;
+    color: wheat;
+
+}
+
+#p1{
+    
+    margin: auto;
+    font-family: Serif,New Century Schoolbook, serif; 
+    font-size: larger;
+}
+
+#demo1{
+    font-size: large;
+    color:#eedddd;
+
+}

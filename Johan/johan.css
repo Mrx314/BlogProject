@@ -1,0 +1,67 @@
+@import 'https://www.w3schools.com/w3css/4/w3.css';
+
+body{
+    
+        background-color: #cccccc;
+        background-image: linear-gradient(rgb(243, 235, 235), rgb(143, 12, 12),rgb(224, 149, 8) );
+
+}
+.hero-image {
+    background-image: url("../Johan/img/jh5.jpg");
+    
+    max-width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text {
+    margin-left: 0px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+    font-size: 18px;
+    
+  }
+.para{
+    font-size: 50px;
+    font-family: monospace;
+}
+
+#div1{
+     
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    ;
+    
+    text-align: center;
+    font-size: 25px;
+    color: black;
+
+}
+
+#p1{
+    
+    margin: auto;
+    font-family: Serif,New Century Schoolbook, serif; 
+    font-size: larger;
+}
+
+#demo1{
+    font-size: large;
+    color:#eedddd;
+
+}
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+.hover_img{
+    text-align: center;
+    font-size: 40px;
+}
+  
+  
